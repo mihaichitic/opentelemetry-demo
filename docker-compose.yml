@@ -605,8 +605,7 @@ services:
       - 8013
     volumes:
       - ./src/flagd:/etc/flagd
-    logging:
-      *logging
+    logging: *logging
 
   # Flagd UI for configuring the feature flag service
   flagdui:
